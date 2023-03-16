@@ -5,13 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Q&A Blogs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
   
 <main>
-    <h1>JS Q&A Blogs</h1>
-    <section>
-        
+    <h1 class="text-center text-4xl font-bold my-5">JS Q&A Blogs</h1>
+    <section class="my-4 text-xl font-medium">
+        <!-- question No-1 -->
+        <h1>Q-1 : What are difference among map , filter , find and forEach ?</h1>
+        <h3>Sol<sup>n</sup> : # The above four methods in JavaScript are map, filter, find and forEach  those operate on arrays.<br>
+        * map: The map method applies a function to each element of an array and returns a new array with the results of the function applied to each element. 
+        * filter: The filter method creates a new array with all the elements that pass a certain condition, defined by a function. 
+        * find: The find method returns the first element in the array that satisfies a certain condition, defined by a function. If no element satisfies the condition, undefined is returned. 
+        * forEach: The forEach method executes a provided function once for each array element. It does not create a new array and does not return anything. 
+
+        </h3><br>
+        <!-- question N0-2 -->
+        <h1>Q-2 : What are difference among localStorage , sessionStorage & cookies ?</h1>
+        <h3>Sol<sup>n</sup> : # localStorage, sessionStorage, and cookies are all ways to store data in a user's browser in JavaScript, but they have some important differences:
+        * localStorage: Data stored in localStorage remains stored even after the browser is closed and reopened. The data is stored indefinitely until it is explicitly removed by the user or by the code. The data is also shared across all windows/tabs that access the same domain.
+        * sessionStorage: Data stored in sessionStorage is only available for the duration of the current browsing session. When the browser is closed, the data is deleted.
+        * cookies: Cookies are small pieces of data that are sent from a website to the user's browser, where they are stored and sent back to the website on subsequent requests. 
+        </h3><br>
+        <!-- question No-3 -->
+        <h1>Q-3 : What is Event Loop ? How does it work ?</h1>
+        <h3>Sol<sup>n</sup> : The Event Loop is a fundamental part of the JavaScript. It is responsible for managing the execution of code in response to various events, such as user input, timer events, and network requests.
+
+            The Event Loop works by continuously looping over two main data structures: the call stack and the task queue. The call stack is a LIFO (last-in, first-out) data structure that contains the currently executing functions in the program. The task queue is a FIFO (first-in, first-out) data structure that contains tasks to be executed in the future.</h3><br><br>
+        <!-- question No-4 -->
+        <h1>Q-## : What is the task of quizTimer & chooseQuiz function ?</h1>
+        <h3>Sol<sup>n</sup> : </h3><br>
     </section>
 </main>
 
