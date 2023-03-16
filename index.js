@@ -111,8 +111,7 @@ document.querySelector("#submit").addEventListener("click", () => {
   if (storage) {
     localStorage.setItem(
       "results",
-      JSON.stringify([
-        ...storage,
+      JSON.stringify([...storage,
         {
           marks: totalMark,
           examTime: timeTaken.innerText,
